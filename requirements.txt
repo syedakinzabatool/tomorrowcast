@@ -1,0 +1,6 @@
+# Phase 1: core deps only. Later phases (modeling, agents, dashboard) append more here.
+python-dotenv
+hopsworks[python]
+requests
+pandas
+numpy

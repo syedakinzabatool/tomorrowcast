@@ -151,6 +151,8 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
 .envrc
 .venv
 env/
@@ -221,3 +223,38 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Documents (upload only when explicitly requested)
+*.docx
+*.doc
+*.md
+!README.md
+*.pdf
+
+# Claude Code local config
+.claude/
+
+# Secrets, keys, credentials (never commit)
+*.key
+*.pem
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+*secret*
+*credential*
+*apikey*
+*api_key*
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ppk
+.aws/
+.ssh/
+service-account*.json
+gcp-key*.json
+firebase-adminsdk*.json
+config.local.*
+secrets.*
