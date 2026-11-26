@@ -4,3 +4,9 @@ hopsworks[python]
 requests
 pandas
 numpy
+
+# Phase 4: EDA notebook + plotting
+matplotlib
+seaborn
+jupyter
+nbclient
